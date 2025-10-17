@@ -1,6 +1,4 @@
-.geral {
-    font-family: "Poppins", sans-serif;
-}
+
 
 .geral .conteudo {
     display: flex;
@@ -25,7 +23,7 @@
 }
 
 .geral .conteudo .parte-superior button {
-    width: 216px;
+    width: 230px;
     height: 60px;
     display: flex;
     flex-direction: row;
