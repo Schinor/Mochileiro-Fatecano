@@ -16,6 +16,7 @@
 .geral .parte-esquerda img {
     width: 81%;
     height: 87%;
+    align-self: center;
 }
 
 .geral .parte-direita {
