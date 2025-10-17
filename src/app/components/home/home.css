@@ -1,0 +1,51 @@
+.geral {
+    font-family: "Poppins", sans-serif;
+}
+
+.geral .conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.geral .conteudo .parte-superior {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 700px;
+    align-items: center;
+}
+
+.geral .conteudo .parte-superior {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 700px;
+    align-items: center;
+}
+
+.geral .conteudo .parte-superior button {
+    width: 216px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    border-radius: 10px;
+    background-color: #21BC6B;
+    border: #21BC6B;
+    color: white;
+}
+
+.geral .conteudo .parte-superior img {
+    padding-left: 15px;
+}
+
+.geral .conteudo .parte-inferior {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}

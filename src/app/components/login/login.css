@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+.geral {
+    display: flex;
+    flex-direction: row;
+}
+
+.geral .parte-esquerda {
+    align-items: center;
+    align-content: center;
+}
+
+.geral .parte-esquerda img {
+    width: 75%;
+    height: 75%;
+}
+
+.geral .parte-direita {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-self: center;
+}
+
+.geral .parte-direita img {
+    width: 30%;
+    height: 20%;
+    align-self: center;
+}
+
+.geral .parte-direita h1 {
+    font-size: 24px;
+    align-self: center;
+    text-align: center;
+}
+
+.geral .parte-direita p {
+    font-size: 16px;
+    align-self: center;
+    color: #858E97;
+}
+
+.geral .parte-direita a {
+    color: #21BC6B;
+    text-decoration: none;
+}
+
+.geral .parte-direita .parte-direita-login {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.geral .parte-direita .parte-direita-login h2 {
+    font-size: 14px;
+    color: #858E97;
+}
+
+.geral .parte-direita .parte-direita-login input {
+    width: 400px;
+    height: 48px;
+    border-radius: 10px;
+    border: #CDD4DA, 1px;
+    border-style: solid;
+}
+
+.geral .parte-direita .parte-direita-login input::placeholder {
+    padding-left: 10px;
+    color: #CDD4DA;
+}
+
+.geral .parte-direita .parte-direita-login app-my-button {
+    align-self: center;
+    width: 400px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: #21BC6B;
+    border: #21BC6B;
+    color: white;
+}
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+    <main class="geral">
+        <section class="parte-esquerda">
+            <img src="/imagens/imagemLogin.png" alt="Imagem de um jovem lendo">
+        </section>
+        <section class="parte-direita">
+            <img src="/icons/iconeMochilaLogin.png" alt="Icone de mochila">
+            <h1>Guia do Mochileiro <br>Fatecano</h1>
+            <div class="parte-direita-login">
+                <div class="login-email">
+                    <h2>E-mail</h2>
+                    <input type="text" placeholder="Digite seu e-mail">
+                </div>
+                <div class="login-senha">
+                    <h2>Senha</h2>
+                    <input type="password" placeholder="Digite sua senha">
+                </div>
+                <app-my-button buttonText="Entrar" routePath="/inicio"></app-my-button>
+            </div>
+            <p>Ainda não possui conta? <a routerLink="/register"><Strong>Cadastrar-se</Strong></a></p>
+        </section>
+    </main>
+</body>
+</html>

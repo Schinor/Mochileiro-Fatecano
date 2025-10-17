@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>inicio</title>
+</head>
+<body>
+    <main class="geral">
+        <app-navbar></app-navbar>
+        <section class="conteudo">
+            <section class="parte-superior">
+                <div class="parte-direita">
+                    <h1>Termos</h1>
+                    <p>Qual termo gostaria de acessar hoje?</p>
+                </div>
+                <div class="parte-esquerda">
+                    <button type="submit"><img src="/icons/iconeAdicionarHome.png" alt="Icone de Adição"><h2>Adicionar turma</h2></button>
+                </div>
+            </section>
+            <section class="parte-inferior">
+                <app-my-cards CardText="1°Termo" [CardColor]="'#E2F4C5'"></app-my-cards>
+                <app-my-cards CardText="2°Termo" [CardColor]="'#EEE7DA'"></app-my-cards>
+                <app-my-cards CardText="3°Termo" [CardColor]="'#A5DD9B'"></app-my-cards>
+                <app-my-cards CardText="4°Termo" [CardColor]="'#C5EBAA'"></app-my-cards>
+                <app-my-cards CardText="5°Termo" [CardColor]="'#FFFFDD'"></app-my-cards>
+                <app-my-cards CardText="6°Termo" [CardColor]="'#AFC8AD'"></app-my-cards>
+            </section>
+        </section>
+    </main>
+</body>
+</html>
